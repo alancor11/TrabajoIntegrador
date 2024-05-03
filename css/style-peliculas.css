@@ -10,7 +10,7 @@ body {
     background-color: bisque;
 }
 
-body, header, main, footer {
+body, header, main {
     min-height: 50px;
     margin: 0.5rem;
     min-width: 400px;
