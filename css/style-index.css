@@ -2,6 +2,7 @@
 html {
     font-size: 1rem;
     height: 100%;
+    width: auto;
 }
 
 body {
@@ -17,24 +18,24 @@ body, header, main {
     min-width: 400px;
 }
 
+header {
+    background-color: aliceblue;
+}
+
 header, main {
     text-align: center;
 }
 
 footer {
     clear: both;
-    width: 100%;
+    width: auto;
     padding: 20px;
+    background-color: aliceblue;
 }
 
 h1 {
     display: inline-block;
     padding: 0.5rem;
-}
-
-main>div {
-    min-height: 180px;
-    margin: 0.5rem;
 }
 
 main>div {
@@ -72,7 +73,6 @@ img {
 
 .menu-nav ul {
     list-style-type: none;
-    background-color: coral;
 }
 
 .menu-nav li {

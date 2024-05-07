@@ -13,13 +13,13 @@ body {
 
 body, header, main {
     min-height: 50px;
-    margin: 1rem;
+    margin: 0.5rem;
     min-width: 400px;
 }
 
 header {
-    text-align: center;
     background-color: aliceblue;
+    text-align: center;
 }
 
 footer {
@@ -34,20 +34,15 @@ h1 {
     padding: 0.5rem;
 }
 
-img {
-    max-width: 15%;
-    height: 15%;
-    display: block; 
-    margin: 20px auto;
-    float: left;
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 10px;
 }
 
-.reparto1 {
-    list-style-type: none;
-}
-
-.descripcion {
-    background-color:lightblue
+.integrante {
+    padding: 15px;
+    background-color: chocolate;
 }
 
 .menu-nav ul {
@@ -69,33 +64,6 @@ img {
 .menu-nav a:hover {
     color:brown
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media screen and (min-width: 768px) {
