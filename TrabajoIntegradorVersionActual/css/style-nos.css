@@ -8,7 +8,7 @@ body {
     font-family: "Freeman", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-color: bisque;
+    background-color: rgb(255, 228, 196);
 }
 
 body, header, main {
@@ -18,7 +18,7 @@ body, header, main {
 }
 
 header {
-    background-color: aliceblue;
+    background-color: rgb(240, 248, 255);
     text-align: center;
 }
 
@@ -26,7 +26,7 @@ footer {
     clear: both;
     width: auto;
     padding: 20px;
-    background-color: aliceblue;
+    background-color: rgb(240, 248, 255);
 }
 
 h1 {
@@ -42,7 +42,10 @@ h1 {
 
 .integrante {
     padding: 15px;
-    background-color: chocolate;
+    background-color: rgb(210, 105, 30);
+}
+.integrante .socials{
+    text-align: center;
 }
 
 .menu-nav ul {
@@ -62,7 +65,7 @@ h1 {
 }
 
 .menu-nav a:hover {
-    color:brown
+    color:rgb(165, 42, 42)
 }
 
 
@@ -95,16 +98,16 @@ h1 {
     display: inline-block;
     min-height: 40px;
     width: 40px;
-    background-color:aqua;
+    background-color:rgb(0, 255, 255);
     margin: 0 15px 10px 0;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
-    color: FFFFFF;
+    color: #FFFFFF;
     font-size: 20px;
 }
 .socials a:hover{
-    color: brown;
+    color: rgb(20, 5, 228);
 }
 
 .pieDePagina{

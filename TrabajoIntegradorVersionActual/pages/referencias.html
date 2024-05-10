@@ -35,7 +35,21 @@
             <p>Queremos que nos ayudes a apliar nuestro catálogo de recomendaciones para poder llegar a nuevos televidentes y amantes del cine. Te invitamos a formar parte de nuestra comunidad. Por favor, rellená el siguiente formulario para que próximamente puedas ver tu propia recomendación formando parte junto con recomendaciones de otras personas, y así ir haciendo crececer nuestra comunidad. Gracias!</p>
         </section>
         <section>
-            <!--ACÁ DEBE IR EL FORMULARIO-->
+            <form action="procesar_referencia.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+        
+                <label for="correo_electronico">Correo electrónico:</label>
+                <input type="email" id="correo_electronico" name="correo_electronico" required>
+
+                <label for="documental">Tu recomendado:</label>
+                <input type="text" id="documental" name="documental" required>
+                
+                <label for="comentario">Comentario:</label>
+                <textarea id="comentario" name="comentario" rows="5" required></textarea>
+        
+                <button type="submit">Enviar referencia</button>
+            </form>
         </section>
     </main>
     <br><br>
