@@ -99,11 +99,11 @@ img {
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
-    color: FFFFFF;
+    color: #FFFFFF;
     font-size: 20px;
 }
 .socials a:hover{
-    color: brown;
+    color: rgb(20, 5, 228);
 }
 
 .pieDePagina{
@@ -122,46 +122,21 @@ button {
     cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width: 768px) {
+@media (max-width: 1024px) {
     header nav section footer {
         width: 70%;
         margin: auto;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 768px) {
     header, nav, section, footer {
         width: 90%;
         margin: auto;
     }
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
     header, nav, section, footer {
         width: 100%;
         padding: 10px;
