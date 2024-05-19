@@ -1,0 +1,55 @@
+h3, p{
+    text-align: center;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    header nav section footer {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    header, nav, section, footer {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    header, nav, section, footer {
+        width: 100%;
+        padding: 10px;
+    }
+}
+.docs{
+    height: 200px;
+    width: auto;
+}
