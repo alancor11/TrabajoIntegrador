@@ -123,21 +123,21 @@ button {
 }
 
 @media (max-width: 1024px) {
-    header nav section footer {
+    header nav main section footer {
         width: 70%;
         margin: auto;
     }
 }
 
 @media (max-width: 768px) {
-    header, nav, section, footer {
+    header nav main section footer {
         width: 90%;
         margin: auto;
     }
 }
 
 @media (max-width: 480px) {
-    header, nav, section, footer {
+    header nav main section footer {
         width: 100%;
         padding: 10px;
     }
