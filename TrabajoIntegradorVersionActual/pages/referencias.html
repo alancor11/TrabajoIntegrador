@@ -33,6 +33,7 @@
         <section>
             <h3>Nos interesa tu opinión</h3>
             <p>Queremos que nos ayudes a apliar nuestro catálogo de recomendaciones para poder llegar a nuevos televidentes y amantes del cine. Te invitamos a formar parte de nuestra comunidad. Por favor, rellená el siguiente formulario para que próximamente puedas ver tu propia recomendación formando parte junto con recomendaciones de otras personas, y así ir haciendo crececer nuestra comunidad. Gracias!</p>
+        <br>
         </section>
         <section>
             <form action="procesar_referencia.php" method="post">
@@ -42,13 +43,27 @@
                 <label for="correo_electronico">Correo electrónico:</label>
                 <input type="email" id="correo_electronico" name="correo_electronico" required>
 
+                <label for="pet-select">Género</label>
+                <select name="genero" id="genero">
+                    <option value="">--Elija un tipo de documental a recomendar--</option>
+                    <option value="nat">Naturaleza</option>
+                    <option value="per">Personas</option>
+                    <option value="sent">Sentimientos</option>
+                    <option value="esp">Espiritualidad</option>
+                    <option value="filo">Filosofía</option>
+                    <option value="otro">Otro</option>
+                </select>
+                <br> <br>
                 <label for="documental">Tu recomendado:</label>
                 <input type="text" id="documental" name="documental" required>
                 
                 <label for="comentario">Comentario:</label>
                 <textarea id="comentario" name="comentario" rows="5" required></textarea>
-        
+
+                <label for="terminos"><input type="checkbox" id="terminos" value="first_checkbox" required />Acepto los términos y condiciones</label>
+        <br>
                 <button type="submit">Enviar referencia</button>
+                <img class="docs" src="../images/documentales.jpg" alt="documentales">
             </form>
         </section>
     </main>

@@ -9,6 +9,11 @@ form {
     border: 1px solid #ccc;
 }
 
+.docs{
+    height: 200px;
+    width: auto;
+}
+
 label {
     display: block;
     margin-bottom: 5px;
