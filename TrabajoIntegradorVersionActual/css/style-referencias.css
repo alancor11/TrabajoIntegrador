@@ -49,3 +49,12 @@ button {
         padding: 10px;
     }
 }
+
+.pieDePagina{
+    height: 50%; /*130*/
+    padding-top: 0.5em; /*5px*/
+}
+.futer{
+    padding-left: 70%; /*700px*/
+    margin-top: -8em; /*-110px*/
+}
