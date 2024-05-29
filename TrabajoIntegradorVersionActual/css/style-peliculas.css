@@ -115,12 +115,19 @@ img {
     margin-top: -8em; 
 }
 
-button {
+.button {
+    display: inline-block;
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
     border: none;
-    cursor: pointer;
+    text-align: center;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.button:hover {
+    background-color: rgb(32, 16, 124);
+    transform: scale(1.05);
 }
 
 @media (max-width: 1024px) {
