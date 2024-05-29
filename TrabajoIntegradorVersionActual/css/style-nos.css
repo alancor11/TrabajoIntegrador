@@ -12,9 +12,9 @@ body {
 }
 
 body, header, main {
-    min-height: 50px;
+    min-height: 50px;  /*50px*/
     margin: 0.5rem;
-    min-width: 400px;
+    min-width: 400px;  /*400px*/
 }
 
 header {
@@ -25,7 +25,7 @@ header {
 footer {
     clear: both;
     width: auto;
-    padding: 20px;
+    padding: 20px;  /*20px*/
     background-color: rgb(240, 248, 255);
 }
 
@@ -37,12 +37,12 @@ h1 {
 .contenedor {
     display: grid;
     grid-template-columns: repeat(4, 2fr);
-    gap: 10px;
-    padding: 10px;
+    gap: 10px;  /*10px*/
+    padding: 10px;  /*10px*/
 }
 
 .integrante {
-    padding: 15px;
+    padding: 15px;  /*15px*/
     background-color: rgb(210, 105, 30);
 }
 
@@ -95,20 +95,20 @@ h1 {
 }
 
 .parrafoFooter{
-    font-size: 30px;
+    font-size: 30px;  /*30px*/
 }
 
 .socials a{
     display: inline-block;
-    min-height: 40px;
-    width: 40px;
+    min-height: 40px;  /*40px*/
+    width: 40px;  /*40px*/
     background-color:rgb(0, 255, 255);
     margin: 0 15px 10px 0;
     text-align: center;
-    line-height: 40px;
+    line-height: 40px;  /*40px*/
     border-radius: 50%;
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 20px;  /*20px*/
 }
 .socials a:hover{
     color: rgb(20, 5, 228);

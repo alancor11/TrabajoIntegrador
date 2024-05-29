@@ -14,7 +14,7 @@ body {
 body, header, main {
     min-height: 50px;
     margin: 1rem;
-    min-width: 400px;
+    min-width: 400px; 
 }
 
 header {
@@ -25,7 +25,7 @@ header {
 footer {
     clear: both;
     width: auto;
-    padding: 20px;
+    padding: 20px; 
     background-color: aliceblue;
 }
 
@@ -71,7 +71,7 @@ img {
 }
 .fotografia1{
     margin-top: 0;
-    height: 284px;
+    height: 284px;  
 }
 .fotografia2{
     margin-top: 0;
@@ -107,12 +107,12 @@ img {
 }
 
 .pieDePagina{
-    height: 50%; /*130*/
-    padding-top: 0.5em; /*5px*/
+    height: 50%;
+    padding-top: 0.5em; 
 }
 .futer{
-    padding-left: 70%; /*700px*/
-    margin-top: -8em; /*-110px*/
+    padding-left: 70%; 
+    margin-top: -8em; 
 }
 
 button {
