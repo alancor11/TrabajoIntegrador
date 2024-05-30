@@ -62,10 +62,26 @@
 
                 <label for="terminos"><input type="checkbox" id="terminos" value="first_checkbox" required />Acepto los términos y condiciones</label>
         <br>
-                <button type="submit">Enviar referencia</button>
+            <div id="imagenInput">
+                <label for="imagen">Subir imagen</label>
+                <input type="file" id="inputFile" name="image" accept="image/*" style="display: none;" required>
+                <button type="button" id="selccionDeImagen" onclick="document.getElementById('inputFile').click()">Seleccionar imagen</button>
+               
+            </div><br>
+            <div id="enviarReferencia">
+                <button type="submit">Enviar referencia</button>                
+            </div>    
                 <img class="docs" src="../images/documentales.jpg" alt="documentales">
+                <br><br>
+                
             </form>
+            
+
+
+
         </section>
+
+        
     </main>
     <br><br>
     <footer class="pieDePagina">

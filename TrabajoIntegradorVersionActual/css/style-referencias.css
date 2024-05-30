@@ -10,36 +10,44 @@ h3, p{
 }
 
 form {
-    width: 500px;  /*500px*/
+    width: 70%;  
     margin: 0 auto;
-    padding: 20px;  /*20px*/
+    padding: 20px;  
     border: 1px solid #ccc;
 }
 
 .docs{
-    height: 200px;  /*200px*/
+    height: 200px;  
     width: auto;
 }
 
 label {
     display: block;
-    margin-bottom: 5px;  /*5px*/
+    margin-bottom: 5px; 
 }
 
 input, textarea {
     width: 100%;
-    padding: 8px;  /*8px*/
+    padding: 8px;  
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
 
 button {
     background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;  /*10px 20px*/
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
     border: none;
     cursor: pointer;
+    transition: 0.5s ease;
+    &:hover {
+        background-color: #3e8e41;
+        color: rgb(0, 0, 0); 
+      }
+      
+
 }
+
 
 @media (max-width: 1024px) {
     header nav section footer {
@@ -70,3 +78,4 @@ button {
     padding-left: 70%; /*700px*/
     margin-top: -8em; /*-110px*/
 }
+

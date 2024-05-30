@@ -11,3 +11,16 @@ form.addEventListener("sumbit", e=>{
         alert("Nombre muy corto")
     }
 })
+
+const inputFile = document.getElementById('inputFile');
+const selccionDeImagen = document.getElementById('selccionDeImagen');
+const fileNameSpan = document.getElementById('fileName');
+
+selccionDeImagen.addEventListener('click', () => {
+  inputFile.click();
+});
+
+inputFile.addEventListener('change', function() {
+  const fileName = this.value.split('\\').pop(); // Extract filename
+  fileNameSpan.textContent = fileName ? fileName : 'Ningún archivo seleccionado'; // Handle empty selection
+});
